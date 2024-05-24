@@ -1,5 +1,8 @@
 @extends('Users.layout.entete')
 @section('content')
+<div>
+    
+</div>
 <div class="bg-dark text-secondary px-4 py-5 text-center">
     <div class="py-5">
       <h1 class="display-5 fw-bold text-white">Dark color hero</h1>
