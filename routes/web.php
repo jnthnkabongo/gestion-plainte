@@ -1,6 +1,8 @@
 <?php
 
+use App\Http\Controllers\AuthController;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\PlainteController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,4 +15,6 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
-Route::get('/', [HomeController::class, 'index'])->name('accueil');
+Route::get('/', [AuthController::class, 'index'])->name('auth');
+Route::get('Soumission-formulaire', [HomeController::class, 'index'])->name('accueil');
+Route::get('Suivi-plainte', [PlainteController::class, 'suivi'])->name('suivi-plainte');

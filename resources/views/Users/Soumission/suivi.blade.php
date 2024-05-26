@@ -10,69 +10,60 @@
         </div>
         </div>
     </div>
+    <div class="container-fluid">
+        <div class="card mt-2">
+            <div class="card-header text-center">
+                <div class="row">
+                    <div class="col-lg-2"></div>
+                    <div class="col-lg-8">
+                        <div class="row g-3">
+                            <div class="col-sm-9">
+                              <input type="text" class="form-control" placeholder="Faites une recherche..." aria-label="City">
+                            </div>
+                            <div class="col-sm">
+                                <button class="btn btn-primary w-100">Rechercher</button>
+                            </div>
 
-    <div class="container mt-5">
-        <div class="position-absolute w-50 top-90 start-50 translate-middle mt-5">
-          <div class="row mt-5">
-            <div class="col-lg-12 col-md-12 col-sm-12 mt-5">
-              <div class="card mt-5">
-
-                <div class="card-body">
-                    <form class="row g-3">
-                    <div class="col-md-6">
-                        <label for="inputEmail4" class="form-label">Noms</label>
-                        <input type="text" class="form-control" readonly>
+                          </div>
                     </div>
-                    <div class="col-md-6">
-                        <label for="inputPassword4" class="form-label">Département</label>
-                        <select class="form-control" name="" id="">
-                            <option value="">Choisissez votre département</option>
-                            <option value="">1</option>
-                        </select>
-                    </div>
-                    <div class="col-md-6">
-                        <label for="inputEmail4" class="form-label">Fonction</label>
-                        <input type="email" class="form-control" id="inputEmail4">
-                    </div>
-                    <div class="col-md-6">
-                        <label for="inputPassword4" class="form-label">Ville</label>
-                        <input type="password" class="form-control" id="inputPassword4">
-                    </div><div class="col-md-6">
-                        <label for="inputEmail4" class="form-label">Site/Localisation</label>
-                        <input type="email" class="form-control" id="inputEmail4">
-                    </div>
-                    <div class="col-md-6">
-                        <label for="inputPassword4" class="form-label">Priorité</label>
-                        <input type="password" class="form-control" id="inputPassword4">
-                    </div><div class="col-md-6">
-                        <label for="inputEmail4" class="form-label">Type matériel</label>
-                        <input type="email" class="form-control" id="inputEmail4">
-                    </div>
-                    <div class="col-md-6">
-                        <label for="inputPassword4" class="form-label">Plainte</label>
-                        <input type="password" class="form-control" id="inputPassword4">
-                    </div>
-                    <div class="col-md-6">
-                        <label for="inputEmail4" class="form-label">Commentaire</label>
-                        <input type="email" class="form-control" id="inputEmail4">
-                    </div>
-                    <div class="col-md-6">
-                        <label for="inputPassword4" class="form-label">Joindre un fichier</label>
-                        <input type="file" class="form-control">
-                    </div>
-                    <div class="col-12">
-                        <button type="submit" class="btn btn-primary w-100">Soumettre</button>
-                    </div>
-                    </form>
+                    <div class="col-lg-2"></div>
                 </div>
-              </div>
             </div>
-          </div>
+            <div class="card-body">
+                <table class="table table-hover table-bordered">
+                    <head>
+                        <th>N</th>
+                        <th>N</th>
+                        <th>N</th>
+                        <th>N</th>
+                        <th>N</th>
+                        <th>N</th>
+                        <th>N</th>
+                    </head>
+                    <body>
+                        <tr>
+                            <td></td>
+                        </tr>
+                    </body>
+                  </table>
+            </div>
+            <div class="card-footer text-muted">
+                <nav aria-label="Page navigation example">
+                    <ul class="pagination justify-content-end">
+                      <li class="page-item disabled">
+                        <a class="page-link">Previous</a>
+                      </li>
+                      <li class="page-item"><a class="page-link" href="#">1</a></li>
+                      <li class="page-item"><a class="page-link" href="#">2</a></li>
+                      <li class="page-item"><a class="page-link" href="#">3</a></li>
+                      <li class="page-item">
+                        <a class="page-link" href="#">Next</a>
+                      </li>
+                    </ul>
+                  </nav>
+            </div>
         </div>
-
-
     </div>
-
 
 
 @endsection
